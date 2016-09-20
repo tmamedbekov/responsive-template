@@ -1,0 +1,35 @@
+
+       h1, h2 {color: white;}
+       .cta{
+           border: 1px white solid; 
+           margin: 10px; 
+           padding: 10px; 
+           width: 140px; 
+           color: white; 
+           margin-top:300px; 
+           display: inline-block;
+       }
+        
+        @media (max-width: 600px) {
+            .top{
+            margin-top:10px;
+            }
+        }
+        
+        
+        @media (min-width: 1200px) {
+        .cta{
+           border: 1px white solid; 
+           margin: 10px; 
+           padding: 10px; 
+           width: 140px; 
+           color: white; 
+           margin-top:300px; 
+           display: inline-block;
+       }
+        }
+        
+        a {color: white;}
+        a:hover {color: grey;}
+        a:active {color: white;}
+        a:visited {color: white;}
